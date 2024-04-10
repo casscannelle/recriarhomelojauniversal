@@ -32,7 +32,10 @@ export const Nav = ({ user, onLogin, onLogout, onCreateAccount, onSearch }) => (
         {user ? (
           <>
             <span> 
-              <PersonOutlineOutlinedIcon className="icon" onClick={onLogout} label="Log out" />
+            <SearchOutlinedIcon className="icon" size="medium" onClick={onLogin} />
+            <ShoppingCartOutlinedIcon className="icon" size="medium" onClick={onLogin} />
+            <PersonOutlineOutlinedIcon className="icon" size="medium" onClick={onLogout} />
+            
             </span>
             <span className="welcome">
               Olá, <b>{user.name}</b>!

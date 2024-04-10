@@ -8,7 +8,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
-export const Nav = ({ user, onLogin, onLogout, onCreateAccount, onSearch }) => (
+export const Nav = ({ user, onLogin, onLogout, onCreateAccount, onSearch, onShopping }) => (
   <header>
     <div className="storybook-nav">
       <div>
@@ -32,9 +32,9 @@ export const Nav = ({ user, onLogin, onLogout, onCreateAccount, onSearch }) => (
         {user ? (
           <>
             <span> 
-            <SearchOutlinedIcon className="icon" size="medium" onClick={onLogin} />
-            <ShoppingCartOutlinedIcon className="icon" size="medium" onClick={onLogin} />
-            <PersonOutlineOutlinedIcon className="icon" size="medium" onClick={onLogout} />
+            <SearchOutlinedIcon className="icon" size="medium" onClick={onSearch} />
+            <ShoppingCartOutlinedIcon className="icon" size="medium" onClick={onShopping} />
+            <PersonOutlineOutlinedIcon className="icon" size="medium" onClick={onLogin} />
             
             </span>
             <span className="welcome">
@@ -44,9 +44,9 @@ export const Nav = ({ user, onLogin, onLogout, onCreateAccount, onSearch }) => (
           </>
         ) : (
           <>
-            <SearchOutlinedIcon className="icon" size="medium" onClick={onLogin} />
+            <SearchOutlinedIcon className="icon" size="medium" onClick={onSearch} />
             <PersonOutlineOutlinedIcon className="icon" size="medium" onClick={onLogin} />
-            <ShoppingCartOutlinedIcon className="icon" size="medium" onClick={onLogin} />
+            <ShoppingCartOutlinedIcon className="icon" size="medium" onClick={onShopping} />
             
           </>
         )}
@@ -62,6 +62,8 @@ Nav.propTypes = {
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
   onCreateAccount: PropTypes.func.isRequired,
+  onShopping: PropTypes.func.isRequired,
+  onSearch: PropTypes.func.isRequired,
 };
 
 Nav.defaultProps = {

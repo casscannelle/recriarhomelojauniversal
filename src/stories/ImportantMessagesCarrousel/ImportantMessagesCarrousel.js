@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./ImportantMessagesCarousel.css"; // Estilo para o componente
+import "./ImportantMessagesCarousel.css"; 
 
 const ImportantMessagesCarousel = ({ messages }) => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);

@@ -1,10 +1,8 @@
-// ImportantMessagesCarousel.stories.js
 
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import ImportantMessagesCarousel from './ImportantMessagesCarousel';
 
-// Define stories using the `storiesOf` function
 storiesOf('ImportantMessagesCarousel', module)
   .add('Default', () => (
     <ImportantMessagesCarousel

@@ -1,9 +1,9 @@
-import { Header } from './Header';
+import { Nav } from './Nav';
 import { fn } from '@storybook/test';
 
 export default {
-  title: 'Example/Header',
-  component: Header,
+  title: 'Components/Nav',
+  component: Nav,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {

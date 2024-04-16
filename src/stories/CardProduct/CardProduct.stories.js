@@ -1,13 +1,13 @@
 import React from 'react';
-import CardComponent from './CardComponent';
+import CardProduct from './CardProduct';
 
 export default {
-  title: 'Components/Card',
+  title: 'Components/Card Product',
   tags: ['autodocs'],
-  component: CardComponent,
+  component: CardProduct,
 };
 
-const Template = (args) => <CardComponent {...args} />;
+const Template = (args) => <CardProduct {...args} />;
 
 export const WithImage = Template.bind({});
 WithImage.args = {

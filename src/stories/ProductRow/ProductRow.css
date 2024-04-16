@@ -1,0 +1,21 @@
+.produtos {
+    text-align: left;
+    padding: 5%;
+
+}
+
+.produtos h3 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.inline-produtos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 18px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+}

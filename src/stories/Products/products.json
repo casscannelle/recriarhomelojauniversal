@@ -1,0 +1,47 @@
+[{
+    "id": "01",
+    "artist" : "BTS",
+    "detail": "VINIL AGUST D (SUGA/BTS) - D-DAY (LP) - IMPORTADO",
+    "price": "R$ 399,90",
+    "installments": "OU 12X DE R$33,32",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/185350-800-auto?v=638484404904600000&width=800&height=auto&aspect=true"
+  },{
+    "id": "02",
+    "artist": "Lana Del Rey",
+    "detail": "VINIL LANA DEL REY - DID YOU KNOW THAT THERE'S A TUNNEL UNDER OCEAN BLVD (2LP/FESTIVAL EDITION) - IMPORTADO",
+    "price": "R$ 299,90",
+    "installments": "OU 12X DE R$24,99",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/185271-800-auto?v=638478446892530000&width=800&height=auto&aspect=true"
+  },{
+    "id": "03",
+    "artist": "Billie Eilish",
+    "detail": "CD BILLIE EILISH - HIT ME HARD AND SOFT - IMPORTADO",
+    "price": "R$ 79,90",
+    "installments": "OU 12X DE R$6,65",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/185285-800-auto?v=638481893077070000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "04",
+    "artist": "Sabrina Carpenter",
+    "detail": "VINIL SABRINA CARPENTER - ESPRESSO (SINGLE 7' BROWN) - IMPORTADO",
+    "price": "R$ 169,90",
+    "installments": "OU 12X DE R$14,45",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/185292-800-auto?v=638481964546770000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "05",
+    "artist": "Bon Jovi",
+    "detail": "VINIL BON JOVI - FOREVER - EDIÇÃO LIMITADA (OCEAN WAVES) - IMPORTADO",
+    "price": "R$ 289,90",
+    "installments": "OU 12X DE R$24,15",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/185018-800-auto?v=638460245359070000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": "06",
+    "artist": "Liam Payne",
+    "detail": "VINIL LIAM PAYNE - TEARDROPS (SINGLE 7') - IMPORTADO",
+    "price": "R$ 169,90",
+    "installments": "OU 12X DE R$14,15",
+    "image": "https://universalmusic.vtexassets.com/arquivos/ids/184969-800-auto?v=638447357368670000&width=800&height=auto&aspect=true"
+  }
+  ]

@@ -5,6 +5,8 @@ import ProductCarousel from './stories/ProductCarousel/ProductCarousel';
 import Banner from './stories/Banner/Banner';
 import TopCarousel from './stories/TopCarousel/TopCarousel';
 import Menu from './stories/Menu/Menu';
+import Footer from './stories/Footer/Footer';
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
       <ProductRow nome="Os mais vendidos" />
       <Menu />
       <Banner imageUrl="Queen.webp" alt="Queen" />
+      <Footer /> 
     </div>
   );
 }

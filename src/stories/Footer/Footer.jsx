@@ -8,177 +8,117 @@ import {
   MDBRow,
   MDBBtn
 } from 'mdb-react-ui-kit';
+import { Button } from '../Button/Button';
 
 export default function Footer() {
   return (
     <MDBFooter className='text-center' color='white' bgColor='dark'>
       <MDBContainer className='p-4'>
+        
+
+        <section className=''>
+            <MDBRow className='d-flex justify-content-center'>
+              <MDBCol size="auto">
+                <p className='pt-2'>
+                  <img src="https://universalmusic.vtexassets.com/assets/vtex/assets-builder/universalmusic.store-theme/2.0.1/img/logo-footer___3fee49fb94ed8fbc52e9d76a2a6cde91.png"></img>
+                </p>
+              </MDBCol>
+               </MDBRow>
+        </section>
+    
+        <section className=''>
+          <MDBRow>
+            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+              <Button primary="true" size="medium" label="Área do revendedor"/> 
+            </MDBCol>
+
+            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+              <h5 className='text-uppercase'>Institucional</h5>
+
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Quem Somos
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Clube do Vinil
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Notícias
+                  </a>
+                </li>
+              </ul>
+            </MDBCol>
+
+            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+              <h5 className='text-uppercase'>Política comercial</h5>
+
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <a href='#!' className='text-white'>
+                  Formas de pagamento                  
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                Trocas e devoluções                  
+                </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Termos de uso
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Polítiva de Privacidade
+                  </a>
+                </li>
+              </ul>
+            </MDBCol>
+
+            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+              <h5 className='text-uppercase'>Ajuda</h5>
+
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Sobre Cashback
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Fale Conosco
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Perguntas Frequentes
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-white'>
+                    Prazos e Entregas
+                  </a>
+                </li>
+              </ul>
+            </MDBCol>
+          </MDBRow>
+        </section>
         <section className='mb-4'>
+        <h5 className='text-uppercase'>Siga nossas redes sociais</h5>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
             <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-
-        <section className=''>
-          <form action=''>
-            <MDBRow className='d-flex justify-content-center'>
-              <MDBCol size="auto">
-                <p className='pt-2'>
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </MDBCol>
-
-              <MDBCol md='5' start>
-                <MDBInput contrast type='email' label='Email address' className='mb-4' />
-              </MDBCol>
-
-              <MDBCol size="auto">
-                <MDBBtn outline color='light' type='submit' className='mb-4'>
-                  Subscribe
-                </MDBBtn>
-              </MDBCol>
-            </MDBRow>
-          </form>
-        </section>
-
-        <section className='mb-4'>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-            voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
-          </p>
-        </section>
-
-        <section className=''>
-          <MDBRow>
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
-
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
-
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
-
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
-          </MDBRow>
         </section>
       </MDBContainer>
 

@@ -6,6 +6,7 @@ import Banner from './stories/Banner/Banner';
 import TopCarousel from './stories/TopCarousel/TopCarousel';
 import Menu from './stories/Menu/Menu';
 import Footer from './stories/Footer/Footer';
+import Products from './stories/Products/Products';
 
 
 function App() {

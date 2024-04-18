@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
-import './Products.css';
 import productsData from './Products.json'; 
+import './Products.css';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
@@ -12,40 +12,35 @@ function Products() {
     setData(productsData); 
   }, []);
 
-  const handleLeftClick = (e) => {
-    e.preventDefault();
+  const handleLeftClick = () => {
     if (carousel.current) {
       carousel.current.scrollLeft -= carousel.current.offsetWidth;
     }
   };
 
-  const handleRightClick = (e) => {
-    e.preventDefault();
+  const handleRightClick = () => {
     if (carousel.current) {
       carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
   };
-
-  if (!data || !data.length) return null;
-
+  
   return (
-    <div className="carousel">
-      {data.map((item) => {
-        const { id, artist, detail, price, installments, image } = item;
-        return (
-          <div className="item" key={id}>
+    <div className="container">
+      <div className="carousel" ref={carousel}>
+        {data.map((product, i) => (
+          <div className="item" key={product.id}>
             <div className="image">
-              <img src={image} alt={artist} />
+              <img src={product.image} alt={product.artist} />
             </div>
             <div className="info">
-              <span className="name">{artist}</span>
-              <span className="detail">{detail}</span>
-              <span className="installments">{installments}</span>
-              <span className="price">{price}</span>
+              <span className="name">{product.artist}</span>
+              <span className="detail">{product.detail}</span>
+              <span className="price">{product.price}</span>
+              <span className="installments">{product.installments}</span>
             </div>
           </div>
-        );
-      })}
+        ))}
+      </div>
       <div className="buttons">
         <ChevronLeftIcon onClick={handleLeftClick} aria-label="Scroll Left" />
         <ChevronRightIcon onClick={handleRightClick} aria-label="Scroll Right" />

@@ -1,0 +1,117 @@
+.container {
+  max-width: 75vw;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.container .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overflow-y: none;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.container .carousel .item {
+  background-color: white;
+  margin: 10px; 
+  padding: 10px;
+  width: 355px; 
+  height: 550px;
+  border-radius: 16px;
+  flex: none;
+}
+
+.container .carousel .item:hover {
+  box-shadow: 10px 13px 35px -6px rgba(0,0,0,0.29);
+-webkit-box-shadow: 10px 13px 35px -6px rgba(0,0,0,0.29);
+-moz-box-shadow: 10px 13px 35px -6px rgba(0,0,0,0.29);
+}
+
+.container .carousel .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .carousel .item .info {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .carousel .item .info span {
+  display: block;
+  text-align: left;
+  color: #1e1e1e;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.container .carousel .item .info .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #F7CD47;
+}
+
+.container .carousel .item .info .name:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #F7CD47;
+  text-decoration: underline;
+}
+.container .carousel .item .info .detail {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #575858;
+}
+
+.container .carousel .item .info .price {
+  font-size: 1rem;
+  font-weight: bold;
+  flex-grow: 1;
+  color: #000000;
+}
+
+.container .carousel .item .info .installments {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.container .buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container .buttons svg {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #dfe0e085;
+  border-radius: 50%;
+  font-size: 3rem;
+  z-index: 1;
+}
+
+.container .buttons .MuiSvgIcon-root:first-child {
+  left: -15px;
+}
+
+.container .buttons .MuiSvgIcon-root:last-child {
+  right: 15px;
+}

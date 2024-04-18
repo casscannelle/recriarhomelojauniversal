@@ -1,12 +1,10 @@
-import './App.css';
-import { Nav } from './stories/Nav/Nav';
-import { ProductRow } from './stories/ProductRow/ProductRow';
-import ProductCarousel from './stories/ProductCarousel/ProductCarousel';
-import Banner from './stories/Banner/Banner';
 import TopCarousel from './stories/TopCarousel/TopCarousel';
+import { Nav } from './stories/Nav/Nav';
+import ProductCarousel from './stories/ProductCarousel/ProductCarousel';
+import { ProductRow } from './stories/ProductRow/ProductRow';
+import Banner from './stories/Banner/Banner';
 import Menu from './stories/Menu/Menu';
 import Footer from './stories/Footer/Footer';
-import Products from './stories/Products/Products';
 
 
 function App() {

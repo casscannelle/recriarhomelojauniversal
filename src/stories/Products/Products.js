@@ -3,6 +3,7 @@ import productsData from './Products.json';
 import './Products.css';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Button } from '../Button/Button';
 
 function Products() {
   const [data, setData] = useState([]);
@@ -37,6 +38,9 @@ function Products() {
               <span className="detail">{product.detail}</span>
               <span className="price">{product.price}</span>
               <span className="installments">{product.installments}</span>
+            </div>
+            <div>
+              <Button primary="true" label="Adicionar ao carrinho"/>
             </div>
           </div>
         ))}

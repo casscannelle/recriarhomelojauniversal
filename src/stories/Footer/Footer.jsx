@@ -9,10 +9,11 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import { Button } from '../Button/Button';
+import './Footer.css'
 
 export default function Footer() {
   return (
-    <MDBFooter className='text-center' color='white' bgColor='dark'>
+    <MDBFooter className='text-left' color='white' bgColor='black'>
       <MDBContainer className='p-4'>
         
 
@@ -29,11 +30,11 @@ export default function Footer() {
         <section className=''>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <Button primary="true" size="medium" label="Área do revendedor"/> 
+              <Button primary="true" size="large" label="Área do revendedor"/> 
             </MDBCol>
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Institucional</h5>
+              <h5 className='titulo'>Institucional</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
@@ -55,7 +56,7 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Política comercial</h5>
+              <h5 className='titulo'>Política comercial</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
@@ -82,7 +83,7 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Ajuda</h5>
+              <h5 className='titulo'>Ajuda</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>

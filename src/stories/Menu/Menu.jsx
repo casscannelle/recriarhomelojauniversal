@@ -6,13 +6,14 @@ import {
 } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import './Menu.css'
 
 export default function Menu() {
   return (
       <MDBContainer className='p-4'>
         <MDBRow>
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase'>Artistas</h5>
+            <h5 className='menu-titulo'>Artistas</h5>
 
             <ul className='list-unstyled mb-0'>
               <li>
@@ -39,7 +40,7 @@ export default function Menu() {
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase mb-0'>Vestuário</h5>
+            <h5 className='menu-titulo'>Vestuário</h5>
 
             <ul className='list-unstyled'>
               <li>
@@ -66,7 +67,7 @@ export default function Menu() {
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase'>Formatos</h5>
+            <h5 className='menu-titulo'>Formatos</h5>
 
             <ul className='list-unstyled mb-0'>
               <li>
@@ -93,7 +94,7 @@ export default function Menu() {
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase mb-0'>Gênero Musical</h5>
+            <h5 className='menu-titulo'>Gênero Musical</h5>
 
             <ul className='list-unstyled'>
               <li>

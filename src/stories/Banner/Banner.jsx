@@ -2,7 +2,7 @@ import React from "react";
 import './Banner.css';
 
 
-function Banner ({ imageUrl, alt }) {
+export default function Banner ({ imageUrl, alt }) {
 
     return(
         <div className="banner">
@@ -10,5 +10,3 @@ function Banner ({ imageUrl, alt }) {
         </div>
     )
 }
-
-export default Banner;

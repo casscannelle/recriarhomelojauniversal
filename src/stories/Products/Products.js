@@ -1,16 +1,18 @@
 import { useEffect, useState, useRef } from 'react';
-import productsData from './Products.json'; 
 import './Products.css';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { Button } from '../Button/Button';
+import axios from 'axios';
 
 function Products() {
   const [data, setData] = useState([]);
   const carousel = useRef(null);
 
   useEffect(() => {
-    setData(productsData); 
+    axios.get('http://localhost:3000/produtos') 
+      .then(response => setData(response.data))
+      .catch(error => console.error('Error fetching data:', error));
   }, []);
 
   const handleLeftClick = () => {

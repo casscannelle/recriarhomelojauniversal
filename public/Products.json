@@ -1,4 +1,5 @@
-[
+{
+"produtos": [
   {
     "id": "01",
     "artist": "BTS",
@@ -47,4 +48,4 @@
     "installments": "OU 12X DE R$14,15",
     "image": "https://universalmusic.vtexassets.com/arquivos/ids/184969-800-auto?v=638447357368670000&width=800&height=auto&aspect=true"
   }
-]
+]}

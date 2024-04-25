@@ -10,7 +10,7 @@ function Products() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/produtos') 
+    axios.get('http://localhost:3333/produtos') 
       .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);

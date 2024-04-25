@@ -33,7 +33,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "server": "json-server Products.json -w --port 3333"
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +70,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "prop-types": "^15.8.1",
     "storybook": "^8.0.7",
-    "webpack": "^5.91.0"
+    "webpack": "^5.91.0",
+    "json-server": "^1.0.0-alpha.23"
   }
 }
